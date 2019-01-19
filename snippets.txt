@@ -22,7 +22,8 @@ $       - End of a String
 Quantifiers:
 *       - 0 or More
 +       - 1 or More
-?       - 0 or One
+?       - 0 or One  (? can be used for non-greedy evaluation. check this link to know more:
+                                                                                    https://www.regular-expressions.info/repeat.html)
 {3}     - Exact Number
 {3,4}   - Range of Numbers (Minimum, Maximum)
 
