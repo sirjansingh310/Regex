@@ -12,6 +12,8 @@
 ^       - Beginning of a String
 $       - End of a String
 
+. ^ $ * + - ? ( ) [ ] { } \ |  -characters which need to be escaped
+
 []      - Matches Characters in brackets
 [^ ]    - Matches Characters NOT in brackets
 |       - Either Or
